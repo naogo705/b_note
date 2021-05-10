@@ -1,0 +1,70 @@
+<% var title = "TOP"; var description = "トップのdescription"; %> <% include
+src/ejs/template/_head %>
+<div class="l-wrap__inner">
+  <div class="p-home">
+    <section class="p-home__pc u-hidden-sp">
+      <figure id="js-homelogo" class="p-home__logo u-mb-50-sp" style="display: block;">
+        <a href="#">
+          <img alt="b.note">
+        </a>
+      </figure>
+      <div class="p-videoWrapper">
+        <video id="js-video-pc" class="p-home__video" autoplay muted playsinline style="display: none;">
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+      <div id="js-home-menu" class="p-home__nav" style="display: block;">
+        <ul>
+          <li class="p-home__navItem u-header-active">
+            <a href="#">HOME</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/company">COMPANY</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/business">BUSINESS</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/career">CAREER</a>
+          </li>
+        </ul>
+      </div>
+      <div id="js-skipBtn" class="p-homeSkip" style="display: none;">
+        <a class="p-homeSkip__item">skip</a>
+      </div>
+    </section>
+    <section class="p-home__sp u-hidden pc">
+      <div class="p-spVideoWrapper">
+        <video js="js-video-sp" class="p-home__video--sp" src="" autoplay muted playsinline style="display: block;">
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+      <div class="p-spNav">
+        <figure id="js-spLogo" class="p-spNavLOgo u-mb-50-sp" style="display: block;">
+          <a href="#">
+            <img src="" alt="企業ロゴ">
+          </a>
+        </figure>
+        <ul id="js-home-menu-sp" class="p-spNavList" style="display: block;">
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="#">HOME</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="/company">COMPANY</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="/business">BUSINESS</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13">
+            <a href="/career">CAREER</a>
+          </li>
+        </ul>
+      </div>
+      <div id="js-skipBtn-sp" class="p-homeSkip--sp u-fs-13" style="display: none;">
+        <a class="p-homeSkip__item--sp">skip</a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<% include src/ejs/template/_footer %>

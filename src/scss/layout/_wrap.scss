@@ -1,0 +1,10 @@
+@media print, screen and (max-width: 768px) {
+  .l-wrap {
+    &__inner {
+      margin: 0 auto;
+      max-width: 425px;
+      padding: 0 10px;
+      overflow: hidden;
+    }
+  }
+}

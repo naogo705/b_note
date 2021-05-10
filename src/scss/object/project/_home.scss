@@ -1,0 +1,32 @@
+@media (max-height: 720px) {
+  .p-home {
+    &__logo {
+      bottom: calc(50%- 210px);
+      left: calc(50% - 425px);
+    }
+    &__nav {
+      bottom: calc(50% - 190px);
+      right: calc(50% - 425px);
+    }
+  }
+}
+.p-home {
+  background-color : $colorWhite;
+  width: 100vw;
+  height: 100vh;
+  &__logo {
+    position: absolute;
+    width: 180px;
+    z-index: 5; 
+  }
+  &__video {
+    position: relative;
+    height: calc(100% + 2px);
+    top: -2px;
+  }
+  &__nav {
+    display: none;
+    position: absolute;
+    width: 487px;
+  }
+}
