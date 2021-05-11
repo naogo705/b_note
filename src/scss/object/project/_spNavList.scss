@@ -1,0 +1,21 @@
+.p-spNavList {
+  display: none;
+  &__item a {
+    position: relative;
+  }
+  &__item a:after {
+    content:"";
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    left: -17px;
+    width: 5px;
+    height: 5px;
+    background-color: $colorTransparentBlack;
+    border-radius: 50%;
+  }
+  &__item:first-child a:after {
+    opacity: 1;
+  }
+}
+

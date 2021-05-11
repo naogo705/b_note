@@ -2,37 +2,99 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="トップのdescription" />
+<meta name="description" content="b.noteのbは、何も描かれていない真っ白なノート「blank note」という意味です。何も描かれていない白紙のノートに、わたしたちが加わることで白紙は余白に変化します。こうして、世の中にある白紙という無味な空間を、余白というゆたかな空間に創り変えていくことが私たちの使命です。" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" href="./assets/images/fav.png" />
 <!--facebook用-->
-<meta property="og:title" content="TOP" />
-<meta property="og:description" content="トップのdescription" />
+<meta property="og:title" content="わたしたちのこと | b.note" />
+<meta property="og:description" content="b.noteのbは、何も描かれていない真っ白なノート「blank note」という意味です。何も描かれていない白紙のノートに、わたしたちが加わることで白紙は余白に変化します。こうして、世の中にある白紙という無味な空間を、余白というゆたかな空間に創り変えていくことが私たちの使命です。" />
 <meta property="og:url" content="" />
-<meta property="og:image" content="" /><!--絶対パスで記述-->
+<meta property="og:image" content="" />
+<!--絶対パスで記述-->
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="TOP" />
+<meta property="og:site_name" content="わたしたちのこと | b.note" />
 <meta property="og:locale" content="ja_JP" />
 <!--twitter用-->
 <meta name="twitter:card" content="summary_large_image" /><!-- summary summary_large_image photo gallery appから選ぶ -->
 <!-- <meta name="twitter:site" content="" /> --><!--twitterがあれば記述-->
-<meta name="twitter:title" content="TOP" />
+<meta name="twitter:title" content="わたしたちのこと | b.note" />
 <meta name="twitter:url" content="" />
-<meta name="twitter:description" content="トップのdescription" />
+<meta name="twitter:description" content="b.noteのbは、何も描かれていない真っ白なノート「blank note」という意味です。何も描かれていない白紙のノートに、わたしたちが加わることで白紙は余白に変化します。こうして、世の中にある白紙という無味な空間を、余白というゆたかな空間に創り変えていくことが私たちの使命です。" />
 <meta name="twitter:image" content="" /><!--絶対パスで記述-->
 
-<title>TOP</title>
-<link href="assets/stylesheets/bundleb0108c672b33d4b72e69.css" rel="stylesheet"></head>
-<body>
+<title>わたしたちのこと | b.note</title>
+<link href="assets/stylesheets/bundle78fee9a26234d40e87c6.css" rel="stylesheet"></head>
+<body style="overflow-y: hidden;">
 <div class="l-wrap">
 
-
-<h1>トップページへようこそ！！</h1>
-<a href="/about">to about</a>
-<div class="p-home-bg"></div>
-<div class="p-home-grid"></div>
+<div class="l-wrap__inner">
+  <div class="p-home">
+    <section class="p-home__pc u-hidden-sp">
+      <figure id="js-homelogo" class="p-home__logo u-mb-50-sp" style="display: block;">
+        <a href="#">
+          <img src="/assets/images/homelogo.png" alt="b.note">
+        </a>
+      </figure>
+      <div class="p-videoWrapper">
+        <video id="js-video-pc" class="p-home__video" autoplay muted playsinline  src="/assets/video/top-pc.mp4" type="video/mp4">
+        <!-- 一旦 videoタグ style: none;外している -->
+        </video>
+      </div>
+      <div id="js-home-menu" class="p-home__nav" style="display: block;">
+        <ul>
+          <li class="p-home__navItem u-header__active">
+            <a href="#">HOME</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/company">COMPANY</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/business">BUSINESS</a>
+          </li>
+          <li class="p-home__navItem">
+            <a href="/career">CAREER</a>
+          </li>
+        </ul>
+      </div>
+      <div id="js-skipBtn" class="p-homeSkip" style="display: none;">
+        <a class="p-homeSkip__item">SKIP</a>
+      </div>
+    </section>
+    <section class="p-home__sp u-hidden-pc">
+      <div class="p-spVideoWrapper">
+        <video js="js-video-sp" class="p-home__video--sp" src="" autoplay muted playsinline style="display: block;">
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+      <div class="p-spNav">
+        <figure id="js-spLogo" class="p-spNavLogo u-mb-50-sp" style="display: block;">
+          <a href="#">
+            <img src="/assets/images/b_notelogo.png" alt="企業ロゴ">
+          </a>
+        </figure>
+        <ul id="js-home-menu-sp" class="p-spNavList" style="display: block;">
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="#">HOME</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="/company">COMPANY</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13 u-mb-50-sp">
+            <a href="/business">BUSINESS</a>
+          </li>
+          <li class="p-spNavList__item u-fs-13">
+            <a href="/career">CAREER</a>
+          </li>
+        </ul>
+      </div>
+      <div id="js-skipBtn-sp" class="p-homeSkip--sp u-fs-13" style="display: none;">
+        <a class="p-homeSkip__item--sp">SKIP</a>
+      </div>
+    </section>
+  </div>
+</div>
 
 </div><!-- l-wrap -->
-<script type="text/javascript" src="assets/javascripts/bundleb0108c672b33d4b72e69.js"></script></body>
+<script type="text/javascript" src="assets/javascripts/bundle78fee9a26234d40e87c6.js"></script></body>
 </html>
