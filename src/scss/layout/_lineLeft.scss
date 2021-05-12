@@ -1,0 +1,10 @@
+.l-lineLeft {
+  left: 0;
+  height: 711px;
+}
+
+@media print, screen and (max-width: 768px) {
+  .l-lineLeft {
+    height: 2706px; 
+  }
+}
