@@ -42,6 +42,10 @@ module.exports = (env, argv) => {
         filename: 'company/index.html',
         template: 'src/ejs/company/index.ejs',
       }),
+      new HtmlWebpackPlugin({
+        filename: 'business/index.html',
+        template: 'src/ejs/business/index.ejs',
+      }),
 
       // php
       new CopyWebpackPlugin(
