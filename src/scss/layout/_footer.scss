@@ -1,3 +1,71 @@
-.footer {
-	color: #fff;
+.l-footer {
+	border-top: 1px solid #eee;
+	overflow: hidden;
+	&__inner {
+		position: relative;
+		width: 1090px;
+		margin: 0 auto;
+		padding: 46px 95px 48px;
+		background-color: #fff;
+		z-index: 100;
+	}
+	&__list {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		width: 460px;
+		z-index: 5;
+	}
+	&__item > dt, &__item > p {
+		font-size: 16px;
+		color: #888;
+		font-weight: 200;
+		letter-spacing: 3.2px;
+		margin-bottom: 10px;
+	}
+	&__item > dd {
+		color: $colorTransparentBlack;
+		font-size: 2px;
+		letter-spacing: 2.4px;
+	}
+	&__sns > li {
+		display: inline-block;
+		width: 18px;
+	}
+	&__sns > li:first-child {
+		margin-right: 26px;
+	}
+	&__catch {
+		font-size: 10px;
+		letter-spacing: 2px;
+		color: #888;
+	}
+}
+
+.l-footer__inner:before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 250px;
+	height: 200px;
+	left: -80px;
+	top: 15px;
+	background-image: url(/assets/images/footerAnimal01.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+}
+
+.l-footer__inner:after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 216px;
+	height: 80px;
+	right: -120px;
+	bottom: 0;
+	background-image: url(/assets/images/footerAnimal02.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
 }
