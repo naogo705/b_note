@@ -1,0 +1,21 @@
+.l-header {
+  position: relative;
+  left: -175px;
+  display: flex;
+  align-items: center;
+  &__logo {
+    flex: 0 0 auto;
+    width: 60px;
+    margin: 0 323px 0 0;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.69;
+    font-size: 13px;
+    letter-spacing: 2.6px;
+  }
+  &__listItem:not(:last-child) {
+    margin-right: 70px;
+  }
+}

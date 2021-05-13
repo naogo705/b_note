@@ -1,0 +1,24 @@
+.l-main {
+  &__container {
+    position: relative;
+    padding: 108px 95px 200px;
+  }
+  &__wrapper {
+    width: 1090px;
+    margin: 0 auto;
+  }
+  &__page {
+    padding-top: 244px;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .l-main__container {
+    padding: 50px 20px 100px;
+  }
+  .l-main__wrapper {
+    width: 100%;
+  }
+}
+
+

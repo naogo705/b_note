@@ -1,0 +1,12 @@
+.p-profile {
+  &__about {
+    flex: 0 0 auto;
+  }
+  &__imgArea {
+    position: absolute;
+    right: -200px;
+    width: 600px;
+    height: 310px;
+    overflow: hidden;
+  }
+}

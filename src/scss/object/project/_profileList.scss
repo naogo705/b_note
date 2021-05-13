@@ -1,0 +1,16 @@
+.p-profileList {
+  height: 300px;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item > dt {
+    color: #888;
+    width: 150px;
+    margin-right: 13px;
+    font-weight: 200;
+  }
+  &__item > dd {
+    color: $colorTransparentBlack;
+  }
+}

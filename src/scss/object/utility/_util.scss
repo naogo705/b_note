@@ -17,6 +17,24 @@
   letter-spacing: 2.6px;
 }
 
+.u-fs-30 {
+  font-size: 30px;
+  letter-spacing: 6px;
+  color: #888;
+  font-weight: 100;
+}
+
+.u-fs-12 {
+  font-family: Roboto Condensed,Hiragino Sans,ヒラギノ角ゴシック,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ ProN W3,Roboto,Droid Sans,YuGothic,游ゴシック,Meiryo,メイリオ,Verdana,ＭＳ Ｐゴシック,sans-serif;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: 300;
+}
+
+.u-fadeIn-active {
+  top: 8px!important;
+}
+
 .u-header__active {
   opacity: 1!important;
 }
@@ -25,13 +43,37 @@
   .u-hidden-sp {
     display: none !important;
   }
+  .u-mb-40-sp {
+    margin-bottom: 40px;
+  }
   .u-mb-50-sp {
     margin-bottom: 50px;
+  }
+  .u-mb-140-sp {
+    margin-bottom: 140px;
+  }
+  .u-mb-124-sp {
+    margin-bottom: 124px;
+  }
+  .u-mb-95-sp {
+    margin-bottom: 95px;
   }
 }
 
 @media print, screen and (min-width: 769px) {
   .u-hidden-pc {
     display: none !important;
+  }
+
+  .u-mb-185 {
+    margin-bottom: 185px;
+  }
+
+  .u-mb-195 {
+    margin-bottom: 195px;
+  }
+
+  .u-mb-80 {
+    margin-bottom: 80px;
   }
 }

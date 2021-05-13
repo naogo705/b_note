@@ -1,0 +1,19 @@
+.p-underbar {
+  position: relative;
+  overflow: hidden;
+  width: 117px;
+}
+
+.p-underbar:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #888;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

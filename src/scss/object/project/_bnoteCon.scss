@@ -1,0 +1,19 @@
+@media print, screen and (max-width: 768px) {
+  .p-bnoteCon > dd {
+    margin-bottom: 35px;
+  }
+}
+
+.p-bnoteCon {
+  width: 545px;
+  margin: 0 0 0 auto;
+}
+
+.p-bnoteCon > dd {
+  margin-right: 50px;
+}
+
+.p-bnoteCon > dt {
+  line-height: 2.5;
+}
+
