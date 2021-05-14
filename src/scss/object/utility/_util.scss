@@ -11,6 +11,24 @@
 
 .u-mb-10 { margin-bottom: 10px !important; }
 
+.u-pw-2 {
+  padding: 0 2px;
+}
+
+.u-fs-20 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 200;
+  color:#888;
+}
+
+.u-fs-22 {
+  font-size: 22px;
+  line-height: 2;
+  letter-spacing: 5px;
+  color: #888;
+}
+
 .u-fs-13 {
   line-height: 1.69;
   font-size: 13px;
@@ -26,9 +44,20 @@
 
 .u-fs-12 {
   font-family: Roboto Condensed,Hiragino Sans,ヒラギノ角ゴシック,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ ProN W3,Roboto,Droid Sans,YuGothic,游ゴシック,Meiryo,メイリオ,Verdana,ＭＳ Ｐゴシック,sans-serif;
-  font-size: 12px;
-  letter-spacing: 2.4px;
+  font-size: 11px;
+  letter-spacing: 2px;
   font-weight: 300;
+  line-height: 2.5;
+}
+
+.u-ls--2 {
+  letter-spacing: -2px;
+}
+
+
+.u-fade-up {
+  position: relative;
+  top: 50px;
 }
 
 .u-fadeIn-active {
@@ -42,6 +71,9 @@
 @media print, screen and (max-width: 768px) {
   .u-hidden-sp {
     display: none !important;
+  }
+  .u-mb-25-sp {
+    margin-bottom: 25px;
   }
   .u-mb-40-sp {
     margin-bottom: 40px;
@@ -57,6 +89,12 @@
   }
   .u-mb-95-sp {
     margin-bottom: 95px;
+  }
+  .u-mb-90-sp {
+    margin-bottom: 90px;
+  }  
+  .u-mb-350-sp {
+    margin-bottom: 350px;
   }
 }
 
@@ -79,5 +117,9 @@
 
   .u-mb-50 {
     margin-bottom: 50px;
+  }
+
+  .u-mb-100 {
+    margin-bottom: 100px;
   }
 }

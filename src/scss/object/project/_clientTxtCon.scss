@@ -1,0 +1,29 @@
+.p-clientTxtCon {
+  &__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  &__item > dt {
+    margin-right: 51px;
+    width: 100px;
+  }
+  &__detail:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &__detail {
+    display: flex;
+  }
+  &__detail > dt {
+    color: #888;
+    margin-right: 32px;
+    width: 75px;
+    line-height: 1.83;
+    font-weight: 200;
+  }
+  &__detail > dd {
+    display: block;
+    text-align: right;
+    width: 250px;
+    line-height: 1.83;
+  }
+}
+

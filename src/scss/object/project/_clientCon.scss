@@ -1,0 +1,15 @@
+@media print, screen and (min-width: 769px) {
+  .p-clientCon {
+    &__img {
+      position: relative;
+      top: -110px;
+      &--irikichi, &--hujiiya, &--miura {
+        top: 0!important;
+      }
+    }
+    &--top__img {
+      position: relative;
+      top: 0!important;
+    }
+  }
+}

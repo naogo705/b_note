@@ -1,0 +1,22 @@
+.p-kogateiCon {
+  &--bottom {
+    justify-content: space-between;
+    &__txt {
+      order: 2;
+      width: 350px;
+    }
+    &__img {
+      order: 1;
+    }
+  }
+}
+
+@media print, screen and (min-width: 769px) {
+  .p-kogateiCon {
+    &--bottom__img {
+      position: relative;
+      top: 0!important;
+    }
+  }
+}
+
