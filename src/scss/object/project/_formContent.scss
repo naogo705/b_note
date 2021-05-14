@@ -1,0 +1,16 @@
+.p-formContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__txt {
+    width: 350px;
+  }
+  &__txt > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &__input {
+    position: relative;
+    top: -20px;
+  }
+}
+
